@@ -1,1 +1,132 @@
-hola
+#practicaGif 
+
+esta practica sirve para conocer los comandos basicos del maquetado bajp el estandar MARKDOWN (.md) que nos servira para crear la documentacion de nuestro proyecto de software durante nuestra formacion profecional 
+
+## 1.- Titulo (HEADERS) 
+
+si para la documentacion deseamos ubicar secciones de algun tema o contenido podremos utilizar estaos elemntos para poner testos resaltos como encabezados. estos  son muy similares a las etiquetas \<h1> ... \<h6> en HTML 
+
+**ejemplo**
+
+# Titulo primcipal (nivel 1)
+## Subtitulo de nivel 2 
+### Subtitulo de nivel 3 
+#### Subtitulo de nivel 4
+##### Subtitulo de nivel 5
+###### Subtitulo de nivel 6
+####### el estandar solo te permite hasta 6 posibles titulos, apartir del septimo omitira la istruccion de maquetado 
+
+## 2. Separadores (SEPARATORS)
+esta instruccion coloca una linea vertical entre las seccionesdel documento permitido organizar y distribuir mejor el contenido, y puede ser el maquetado utilizando 3 guiones medios (-) continuos  despues del parrafo deseado 
+
+**Ejemplo** 
+
+Titulo de seccion 
+...
+parrafo 1 parrafo  parrafo 1 parrafo 1  parrafo 1 parrafo 1 parrafo 1 parrafo 1 parrafo 1
+
+
+## 3. Parrafos 
+Son utilizados para precentar textos descriptivos de la documentacion de los proyectos, en el cual podemos utilizar la propiedad de "align" de html para poder controlar la alinacion del texto 
+
+**Ejemplo**
+
+Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda vvvvParrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda Parrafo 1 en caso de no difinir la alinacion estandar por defecto a la izquierda 
+
+<p align="right"> Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right Parrafo 2 al utilizar la etiqueta p y la propiedad de alineacion align con el valor right <\p>
+
+ <p align="center"> Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado  Parrafo 3 es texto estara centrado <\p>
+
+ <p align="justify"> Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizadaparrafo 4 justificado Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizada parrafo 4 justificado Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizadaparrafo 4 justificado Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizadaparrafo 4 justificado Algunas veces deseamos justificar el texto para presentar el texto de una manera mas organizadaparrafo 4  justificado <\p>
+
+
+##  4. Texto enfatizado (BOLD, ITALIC, Y UNDERLINE)
+
+Tambien es posible resaltar algunas palabras importantes utilizando la estilizacion de **Letras Negritas*, para la que colocaremos dos  * antes y despues de la palabra a resaltar *Letra cursiva* solo un *, ***Letra cursiva y negrata*** solo tres * y tesxto subrayado enntre etiquetas   \<ins> y la de cierre \</ins>
+
+
+## 5. Cuadores de codigo o reseñas (BLOCKQUOTES) 
+
+Este elemento son para resaltar instrucciones especificas para la instalacion, configuracion y/o inializadores del proyecto, para mostrar secciones del codigo fuente, y su maqueta usando el simbolo mayor que (>) antes del texto
+
+ **Ejemplo**
+
+para liatar las carpetas y  archivos desde una terminal de comandos en el sistema operativo de windows  debemos usar el comando:
+
+> C:/dir
+
+Despues oprimos la tecla "enter"
+
+Tambien podemos poner texto multilinea 
+
+**Ejemlo** 
+
+Pasos para instalar MySQL
+> - Descargar el archivo instalador desde la pagina www.mysql.com
+> - Instalar el motor de base de datos
+> - definir el puerto y contrase a para el usuario **root**
+> - inicializar el servicio de base de datos
+> - conectarnos a la base de datos para verificar que se instalo correctamente
+
+
+## 6. Listas ordenadas y no ordenadas 
+
+Si en nuestra documentacion nesecitamos incluir informacion en modo de lista, es decir un elemento, tras otros podremos hacerlo utilizando las listas ya sea usando viñetas  o numeracion definida 
+
+para el usu de viñetas solo nesecitas agregar (-) antes del texto
+
+**Ejemplo**
+Mi tpo de musica favorita es:
+- rock 
+- corridos
+- pop 
+- electronica
+
+Para enlistar elemntos en un orden numerico solo basta con anteponer un numero com (.) antes del texto 
+
+**Ejemplo**
+Para crear un nuevo repositorio en "GITHUB" debo :
+
+1. crear una cuenta en github
+2. logearme con mi cuenta de github 
+3. ir a la pagina principal de mi perfil (home)
+4. en el menu lateral bbuscar el boton que dice **nuevo repositorio**
+5. asignarle el nombre 
+6. definir si el prouect es:
+- **Publico:** cualquier persona podra ver y consultar el contenido de mi proyecto 
+- **Privado:** solo aquella persona que yo autorice podran visualizar y modificar el contenido de mi proyecto 
+1. agregar un primer archivo documantal *README:md*
+1. agregar la creacion del repositorio
+
+
+## 7. Ligas y Hipervinculos (links)
+
+Utilizadas para redirigir archivos, secciones dentro o fuera de nuestro repositorios. se maquetan utilizando corchetes  \[ \], inmediatamente de parentesis con la url destino \( \)
+
+**Ejemplo**
+
+mi buscador favorito es: [google], (https://www.google.com)
+
+esta documentacion fue creada por: ***Gerardo CH***
+
+<230416utxicotepec.edu.mx>
+
+## 8. Tablas (TABLES)
+
+si la documentacion lo requiere podemos presentar info, en formatos de tabla con filas y columnas, para maquetarlas podemos utilizar el caracter | para identificar las columnas y - para dilimitar las filas 
+
+**ejemplo**
+----------------------------------------------------------------------
+| Encabezado 1 | Enacabezado 2 | Encabezado 3 | Encabezado 4 |
+|--------------|---------------|--------------|--------------|
+|fila 1 celda 1|fila 1 celda 2 |fila 1 celda 3|fila1 cleda 4 | 
+|fila 2 celda 1|fila 2 celda 2 |fila 2 celda 3|fila2 cleda 4 | 
+|fila 3 celda 1|fila 3 celda 2 |fila 3 celda 3|fila3 cleda 4 | 
+
+## 9. imagenes  (IMAGES)
+
+para la visualizacion sde imagenes debemos cargar los archivos en nuestro respositario y vincularlo
+//para eso se debe dar click en (+) en el proyecto, le das cargar archivo y lo buscas (la imagen debe estar en una carpetas)
+el link de la imagen desde github ej: ![lugia](https://github.com/MIT-MarcoRH/practicaGIT/main/imagenes/ligia.png)
+
+
